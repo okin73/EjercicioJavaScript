@@ -1,0 +1,114 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url("../img/fondo.png");
+    background-size:cover;
+    padding-top: 100px;
+}
+
+section .cont-botones{
+
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter:blur(10px) ;
+
+}
+
+section .cont-botones h2 {
+
+    color: #FFF;
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+
+section .cont-botones button {
+
+    padding: 10 px 40 px;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: #0000;
+    margin:10px ;
+    border: 2px solid #FFF;    
+}
+
+section .cont-figura {
+
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px) ;
+    border: 2px solid #FFFF;
+
+}
+
+section .cont-figura h2{
+
+    color: #FFF;
+    font-size:50px;
+
+}
+
+#figura {
+
+    width: 200px ;
+    height: 200px;
+    background: #FFF;
+    margin: 20px auto;
+
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transition: .5s;
+    transform: rotate(-360deg);
+}
+
+#figura.rectangulo {
+    width: 300px;
+    transition: .4s;
+
+}
+
+#figura.top {
+
+    transform: translateY(-100px);
+    transition: .5s;
+    
+}
+
+#figura.left {
+
+    transform: translateX(-100px);
+    transition: .5s;
+
+}
+
+#figura.right {
+
+    transform: translateX(200px);
+    transition: .5s;
+
+}
+
+#figura.botton {
+
+    transform: translateY(200px);
+    transition: .5s;
+
+}
+
+#figura.diagonal {
+
+    transform: translate(-150px, 150px);
+    transition: .5s;
+
+}
+
+#figura.imagen{
+    background-image:url(../img/Rick.gif);
+}
